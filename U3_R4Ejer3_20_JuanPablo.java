@@ -6,8 +6,10 @@ public class U3_R4Ejer3_20_JuanPablo{
     float dinero, sum_dinero=0;
 
 
-    System.out.println("Introduce la cantidad de dinero con la que cuentas\nNo importa donde lo tengas, todo cuenta");
-    
+    System.out.println("Introduce la cantidad de dinero de la siguiente forma");
+    while(dinero!=0){
+
+    }
 
     }
 }
