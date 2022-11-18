@@ -1,3 +1,4 @@
+//Juan Pablo Perea Santos
 import java.util.Scanner;
 public class U3_R4Ejer3_20_JuanPablo {
     public static void main(String[] args) {
@@ -5,7 +6,7 @@ public class U3_R4Ejer3_20_JuanPablo {
         Scanner entrada = new Scanner(System.in);
         float dinero, sum_dinero = 0;
 
-
+        //Resolución
         System.out.println("Introduce la cantidad de dinero que tengas en los bolsillos, banco, cajones, lo que sea\nPara salir del programa introduce ''0''");
         do {
             dinero = entrada.nextFloat();
@@ -15,7 +16,7 @@ public class U3_R4Ejer3_20_JuanPablo {
             }
         } while (dinero != 0);
 
-        System.out.println("La cantidad de dinero total es: " + sum_dinero);
+        System.out.println("La cantidad de dinero total es: " + sum_dinero+"€");
         if (sum_dinero == 0) {
             System.out.println("Tiempos dificiles, eh?");
         }
